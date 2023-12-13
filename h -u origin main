@@ -1,0 +1,122 @@
+[33mff416fd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m First task commit
+[33m2b7693e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Исправление опечатки
+[33mfe6b601[m Удален пункт про реализацию функции testCase
+[33m988db69[m Небольшие изменения в тестах и описании первого задания.
+[33m1f9f3e6[m Исправления описаний заданий
+[33m664e373[m Обновлён порядок пунктов в задании по объектам
+[33m458b92e[m Merge pull request #49 from netology-code/bjs-53_2
+[33m1a70454[m Небольшие обновления
+[33m841ccb0[m Исправлена ошибка в задаче 2
+[33m12d8f31[m убран текст про test-runner.
+[33m92ab7bf[m mistake in async
+[33m9cc2951[m UPD_TXT
+[33mcb78a0d[m Update README.md
+[33m86149db[m Обновление заданий
+[33m0b4274c[m update decorators task
+[33m96d2f34[m Fixes in function task
+[33mdd77afb[m update description for decorators
+[33medc7a74[m add new test for classes task
+[33m6fd49f7[m Merge pull request #24 from netology-code/fix-objects-readme
+[33m1926cf7[m Update README.md
+[33m64a53e6[m добавлена информация про строгий режим
+[33m48d431e[m update description
+[33m6a7d4b6[m Update README.md
+[33m5d77a45[m Update README.md
+[33mad611e8[m Update README.md
+[33mf5e6f8a[m Update README.md
+[33m38a2226[m Update README.md
+[33mad76221[m Update README.md
+[33m6bc052e[m Update README.md
+[33m84b361f[m Update README.md
+[33m1f6a4a7[m update tasks descriptions
+[33m3928cc5[m update 8 decorations description
+[33ma2b7ff7[m add brackets
+[33m28ddd33[m Clear main.js
+[33m003136e[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33mb931143[m Update debounce task description
+[33mbb752a8[m Merge pull request #21 from skorobaeus/main
+[33mb031c6f[m Исправляет наличность на кэш
+[33m2d10673[m Merge pull request #20 from skorobaeus/main
+[33md2633e2[m Обновляет тесты для Классов
+[33md8effe0[m Update decorators task
+[33m7bf4f06[m update tests for decorators
+[33m7a4e448[m update codestyle
+[33mcf68890[m Update function name
+[33meb9bc80[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33mf2c3e83[m Remove fork information
+[33m8f0ecd4[m Update README.md
+[33med55771[m Update README.md
+[33m2a457f3[m Add main.js for classes
+[33me083738[m Fixed method name
+[33m0bae5e1[m update tests for functions
+[33md890ff9[m Change links
+[33m2616ab5[m Merge pull request #13 from netology-code/changes
+[33m4f1db56[m Update descriptions
+[33m9f004fa[m Update OOP homework
+[33mf00a1e8[m Changed 7 and 8 lessons
+[33mbd1db9d[m Merge pull request #10 from skorobaeus/main
+[33m11a1634[m Update README.md
+[33mc4488e3[m Update description
+[33m2259e99[m issues fixed
+[33me74d761[m Update README.md
+[33m5762d67[m Update README.md
+[33m8640813[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33m0f1cad6[m fixes
+[33mefff8d1[m Merge pull request #9 from theart84/update-html
+[33mfb9ebdc[m update html and css
+[33m5ac04f4[m Merge pull request #3 from theart84/update-test
+[33m22282a1[m many fixes task 7
+[33me6add54[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33ma33bcbd[m fix hw 7
+[33m3c7ed0f[m Merge pull request #6 from kostrubin/main
+[33mec788c4[m fixes + task 7 tests
+[33mad4d7cf[m upgrade task 7
+[33mbf501b6[m lesson 7 tasks update
+[33m9041c8c[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33me8a3ce4[m task 5 fix
+[33mcf57311[m Update README.md
+[33me7cf48c[m Update README.md
+[33mf3f506e[m Update README.md
+[33m89cf000[m Update README.md
+[33m1027af6[m Update README.md
+[33m15b431e[m Update README.md
+[33md602ff8[m Update README.md
+[33me7ebedd[m Update README.md
+[33mf0001d1[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33m1708c35[m fix task4 test
+[33mf145355[m Update README.md
+[33m34d59f9[m fix HW2 tests + new task, fix HW5 text
+[33mdd9cd06[m >new task for hw2, tests for hw4 upgrade
+[33m1552e71[m fix task 3 arrays
+[33m80d7add[m update test for 1.base-concepts
+[33m738e4e3[m fix homework 3
+[33m7e69495[m task 2 rewrited
+[33m0e411fd[m Update README.md
+[33m35d26e9[m Update README.md
+[33m1712fbd[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33mabc2700[m Update README.md
+[33m33fb51a[m Update ProjectDescription.md
+[33m479276b[m Update DebuggerTutorial.md
+[33me68d66a[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33m7450f84[m tasks 6,8
+[33m820a543[m Update README.md
+[33me88478b[m Update README.md
+[33mb273800[m Update README.md
+[33m0d8e3b2[m Update README.md
+[33m56a4028[m Update README.md
+[33m33d339d[m Update README.md
+[33m5f6ae36[m Update README.md
+[33m5d39472[m Update README.md
+[33m2c9c0c7[m Update README.md
+[33md482714[m tasks 6,8
+[33m1e8fed6[m task 5
+[33m5c12542[m fix task 3.2
+[33m0d13569[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33md1676e9[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33m4cef6e3[m Update README.md
+[33m0d460c8[m Merge branch 'main' of https://github.com/netology-code/bjs-2-homeworks into main
+[33m3743758[m homework 4
+[33mfc9ae7f[m Update README.md
+[33m0040029[m 1,2,3 final
+[33m80661b1[m 1-2
+[33mf185e7e[m Initial commit
