@@ -1,19 +1,20 @@
 function getArrayParams(...arr) {
-  let min = arr[0];
-  let max = arr[0];
+  let min = Infinity;
+  let max = -Infinity;
   let sum = 0;
-  let avg;
+  let avg = 0;
 
-  for(let i = 0; i < arr.length; i++) {
-    if(arr[i] < min) {
-      min = arr[i];
-    }
-    if(arr[i] > max) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
       max = arr[i];
+    } if (arr[i] < min) {
+      min = arr[i];
     }
     sum += arr[i];
   }
-  avg = Number((sum/arr.length).toFixed(2));
+
+  avg = Number((sum / arr.length).toFixed(2));
+
 
   return { min: min, max: max, avg: avg };
 }
@@ -23,19 +24,20 @@ getArrayParams(1, 2, 3, -100, 10); // { min: -100, max: 10, avg: -16.80 }
 getArrayParams(5); // { min: 5, max: 5, avg: 5 }
 
 function summElementsWorker(...arr) {
-  let sum = 0;
+  let sumArr = 0;
   if (arr.length === 0) {
     return 0;
-
-  for(let i = 0; i < arr.length; i++) {
-    sum += arr[i]; 
+  }
+  for (let i = 0; i < arr.length; i++) {
+    sumArr += arr[i];
   }
 
-  return sum;
+  return sumArr;
 }
 
 console.log(summElementsWorker()); // 0
 console.log(summElementsWorker(10, 10, 11, 20, 10)); // 61
+
 
 function differenceMaxMinWorker(...arr) {
   let min = Math.min(...arr);
@@ -56,15 +58,14 @@ function differenceEvenOddWorker(...arr) {
   let sumEvenElement = 0;
   let sumOddElement = 0;
 
-  for(let i = 0; i < arr.length; i++) {
-    if(arr.length < 1) {
-      return 0;
-    } else if(arr[i] % 2 === 0) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
       sumEvenElement += arr[i];
-    } else if(arr[i] % 2 === 1) {
-     sumOddElement += arr[i];
+    } else if (!arr[i] % 2 === 0) {
+      sumOddElement += arr[i];
     }
-  } 
+  }
+
   return sumEvenElement - sumOddElement;
 }
 
@@ -75,17 +76,17 @@ function averageEvenElementsWorker(...arr) {
   let sumEvenElement = 0;
   let countEvenElement = 0;
 
-  if(arr.length === 0) {
+  if (arr.length === 0) {
     return 0;
-
-  for(let i = 0; i < arr.length; i++) {
-    
-    if(arr[i] % 2 == 0) {
+  }
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
       sumEvenElement += arr[i];
-      countEvenElement ++;
+      countEvenElement++;
     }
   }
-  return sumEvenElement / countEvenElement; 
+
+  return sumEvenElement / countEvenElement;
 }
 
 console.log(averageEvenElementsWorker(1, 2, 3, 4, 5, 6, 7, 8, 9)); // [2, 4, 6, 8] => 5
