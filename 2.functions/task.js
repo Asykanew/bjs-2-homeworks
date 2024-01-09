@@ -36,7 +36,7 @@ console.log(summElementsWorker(10, 10, 11, 20, 10)); // 61
 
 function differenceMaxMinWorker(...arr) {
   let min = Math.min(...arr);
-  let max = Math.min(...arr);
+  let max = Math.max(...arr);
   
   if(arr.length === 0) {
     return 0;
