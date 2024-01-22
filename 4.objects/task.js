@@ -21,7 +21,7 @@ function Student(name, gender, age) {
           return 0;
       }
       else {
-         return this.marks.reduce((sum, number) => sum + number, 0) / this.marks.length;
+         return this.marks.reduce((sum, number) => sum + number / this.marks.length, 0) || 0;
       }
   }
   
