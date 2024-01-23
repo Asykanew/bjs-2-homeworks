@@ -16,7 +16,7 @@ function Student(name, gender, age) {
   }
 
   Student.prototype.getAverage = function () {
-      if(!this.marks || marks.lenght == 0) {
+      if(!this.marks || this.marks.lenght == 0) {
           return 0;
       }
       else {
@@ -25,7 +25,7 @@ function Student(name, gender, age) {
   }
   
   Student.prototype.exclude = function (reason) {
-      delete Student.subject;
-      delete Student.marks;
+      delete this.subject;
+      delete this.marks;
       this.excluded = reason;
   } 
