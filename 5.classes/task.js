@@ -45,21 +45,21 @@ class Book extends PrintEditionItem {
 
 class NovelBook extends Book {
     constructor(author, name, releaseDate, pagesCount){
-        super(name, releaseDate, pagesCount, author);
+        super(author, name, releaseDate, pagesCount);
         this.type = "novel";    
     }
 }
 
 class FantasticBook extends Book {
     constructor(author, name, releaseDate, pagesCount){
-        super(name, releaseDate, pagesCount, author);
+        super(author, name, releaseDate, pagesCount);
         this.type = "fantastic";
     }
 }
 
 class DetectiveBook extends Book {
     constructor(author, name, releaseDate, pagesCount){
-        super(name, releaseDate, pagesCount, author);
+        super(author, name, releaseDate, pagesCount);
         this.type = "detective";
     }
 }
@@ -82,11 +82,11 @@ class Library {
     }
     
     giveBookByName(bookName) {
-        let findBook = this.books.find(book => book.name === bookName);
-        if(!findBook) {
+        let foundBook = this.books.find(book => book.name === bookName);
+        if(!foundBook) {
             return null;
         }
-        return this.books.splice(this.books.indexOf(findBook), 1)[0];
+        return this.books.splice(this.books.indexOf(foundBook), 1)[0];
     }
 }
 
