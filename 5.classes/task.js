@@ -12,26 +12,25 @@ fix() {
 }
 
 
-set statusState(number) {
+set state(number) {
 if(number < 0) {
-    this.state = 0;
+    this._state = 0;
 }
 if(number > 100) {
-    this.state = 100;
+    this._state = 100;
 } else {
-    this.state = number;
+    this._state = number;
 }
 }
 
-get statusState() {
-    return this.state;
-}
+get state() {
+    return this._state;
+    }
 }
 
 class Magazine extends PrintEditionItem {
     constructor(name, releaseDate, pagesCount){
-        super(name, releaseDate,pagesCount);
-        this.state = 100;
+        super(name, releaseDate, pagesCount);
         this.type = "magazine";
     }
 }
@@ -39,7 +38,6 @@ class Magazine extends PrintEditionItem {
 class Book extends PrintEditionItem {
     constructor(author, name, releaseDate, pagesCount){
         super(name, releaseDate,pagesCount);
-        this.state = 100;
         this.type = "book";
         this.author = author;
     }
@@ -47,29 +45,22 @@ class Book extends PrintEditionItem {
 
 class NovelBook extends Book {
     constructor(author, name, releaseDate, pagesCount){
-        super(name, releaseDate, pagesCount);
-        this.state = 100;
-        this.type = "novel";
-        this.author = author;
-       
+        super(name, releaseDate, pagesCount, author);
+        this.type = "novel";    
     }
 }
 
 class FantasticBook extends Book {
     constructor(author, name, releaseDate, pagesCount){
-        super(name, releaseDate, pagesCount);
-        this.state = 100;
+        super(name, releaseDate, pagesCount, author);
         this.type = "fantastic";
-        this.author = author;
     }
 }
 
 class DetectiveBook extends Book {
     constructor(author, name, releaseDate, pagesCount){
-        super(name, releaseDate, pagesCount);
-        this.state = 100;
+        super(name, releaseDate, pagesCount, author);
         this.type = "detective";
-        this.author = author;
     }
 }
 
@@ -80,7 +71,7 @@ class Library {
     }
 
     addBook(book) {
-        if(this.state > 30) {
+        if(book.state > 30) {
             this.books.push(book);
         }
     }   
