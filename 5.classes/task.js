@@ -82,11 +82,11 @@ class Library {
     }
     
     giveBookByName(bookName) {
-        let foundBook = this.books.find(book => book.name === bookName);
+        let foundBook = this.findBookBy('name', bookName);
         if(!foundBook) {
             return null;
         } else {
         return this.books.splice(this.books.indexOf(foundBook), 1)[0];
+        }
     }
-}
 }
