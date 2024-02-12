@@ -10,6 +10,6 @@ function validateCount(value) {
    try {
    return parseCount(value);
    } catch(error) {
-    console.log(error);
+    return error;
    }
 }
