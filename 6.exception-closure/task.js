@@ -6,3 +6,11 @@
         return count;
     }
 }
+
+function validateCount(value) {
+   try {
+   return parseCount(value);
+   } catch(error) {
+    console.error(error);
+   }
+}
