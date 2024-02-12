@@ -10,11 +10,7 @@ function validateCount(value) {
    try {
    return parseCount(value);
    } 
-   catch(e) {
-    console.log(`
-      error name   : ${ e.name }
-      error message: ${ e.message }
-    `);
-    return 'ERROR';
+   catch(error) {
+    return error;
   }
 }
