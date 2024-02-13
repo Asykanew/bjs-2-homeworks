@@ -28,11 +28,11 @@ class Triangle {
 }
 
 get perimeter() {
-    let p = (firstSide + secondSide + thirdSide);
-    return p;
+    return (this.firstSide + this.secondSide + this.thirdSide);
 }
 get area() {
-    let s= Math.sqrt(0.5 * p * (0.5 * p - firstSide) * (0.5 * p - secondSide) * (0.5 * p - thirdSide)).toFixed(3);
+    const p = this.perimeter / 2;
+    let s= Math.sqrt(p * (p - firstSide) * (p - secondSide) * (p - thirdSide)).toFixed(3);
     return s;
 }
 }
@@ -42,8 +42,7 @@ function getTriangle(firstSide, secondSide, thirdSide) {
         return new Triangle(firstSide, secondSide, thirdSide);
     }
     catch(error) {
-        return let eTriangle {
-            get perimeter() {
+        return get perimeter() {
                 return 'Ошибка! Треугольник не существует';
             }
             get area() {
