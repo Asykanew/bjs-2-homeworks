@@ -32,7 +32,7 @@ get perimeter() {
 }
 get area() {
     const p = this.perimeter / 2;
-    let s= Math.sqrt(p * (p - firstSide) * (p - secondSide) * (p - thirdSide)).toFixed(3);
+    let s= Math.sqrt(p * (p - this.firstSide) * (p - this.secondSide) * (p - this.thirdSide)).toFixed(3);
     return s;
 }
 }
