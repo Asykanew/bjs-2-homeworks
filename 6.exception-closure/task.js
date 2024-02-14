@@ -20,11 +20,12 @@ class Triangle {
         this.firstSide = firstSide;
         this.secondSide = secondSide;
         this.thirdSide = thirdSide;
-    }
+    
     if(((firstSide + secondSide) < thirdSide) 
     || ((firstSide + thirdSide) < secondSide) 
 || ((secondSide + thirdSide) < firstSide)) {
    throw new Error('Треугольник с такими сторонами не существует');
+    }
 }
 
 get perimeter() {
@@ -35,7 +36,6 @@ get area() {
     let s= Math.sqrt(p * (p - this.firstSide) * (p - this.secondSide) * (p - this.thirdSide)).toFixed(3);
     return s;
 }
-}
 
 function getTriangle(firstSide, secondSide, thirdSide) {
     try {
@@ -43,11 +43,11 @@ function getTriangle(firstSide, secondSide, thirdSide) {
     }
     catch(error) {
         return get perimeter() {
-                return 'Ошибка! Треугольник не существует';
-            }
-            get area() {
-                return 'Ошибка! Треугольник не существует';
-            }
+            return 'Ошибка! Треугольник не существует';
+        }
+        get area() {
+            return 'Ошибка! Треугольник не существует';
+        }
 
         }
     }
