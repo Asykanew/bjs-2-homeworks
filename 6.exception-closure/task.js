@@ -36,6 +36,8 @@ get area() {
     let s= Math.sqrt(p * (p - this.firstSide) * (p - this.secondSide) * (p - this.thirdSide)).toFixed(3);
     return s;
 }
+}
+
 
 function getTriangle(firstSide, secondSide, thirdSide) {
     try {
@@ -49,6 +51,5 @@ function getTriangle(firstSide, secondSide, thirdSide) {
             return 'Ошибка! Треугольник не существует';
         }
 
-        }
     }
 }
