@@ -33,8 +33,8 @@ get perimeter() {
 }
 get area() {
     const p = this.perimeter / 2;
-    let s= Math.sqrt(p * (p - this.firstSide) * (p - this.secondSide) * (p - this.thirdSide)).toFixed(3);
-    return s;
+    return Math.sqrt(p * (p - this.firstSide) * (p - this.secondSide) * (p - this.thirdSide)).Number(toFixed(3));
+     
 }
 }
 
@@ -46,7 +46,7 @@ function getTriangle(firstSide, secondSide, thirdSide) {
     catch(error) {
         return { get perimeter() {
             return 'Ошибка! Треугольник не существует';
-        }
+        },
         get area() {
             return 'Ошибка! Треугольник не существует';
         }
